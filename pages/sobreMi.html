@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DcTortas | Sobre Mí</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../stylse/animations.css">
 
 </head>
 <body>
     <header>
         <div class="banner-sobre d-flex justify-content-center flex-column align-items-center">
-            <h2 class="banner__subtitle pt-5">Nosotros somos...</h2>
-            <h1 class="banner__title"><a href="../index.html">DcTortas</a></h1>
+            <h2 class="banner__subtitle pt-5 tracking-in-expand">Nosotros somos...</h2>
+            <h1 class="banner__title tracking-in-expand"><a href="../index.html">DcTortas</a></h1>
         </div>
     </header>
     
@@ -35,7 +37,7 @@
     </nav>
 
     <section class="container">
-        <div class="py-4 row d-flex justify-content-center align-items-center flex-column">
+        <div class="py-4 row d-flex justify-content-center align-items-center flex-column" >
             <img src="../img/tartinBaileys.jpg" alt="" class="rounded-circle w-50">
             <h2 class="subtitlesN d-flex justify-content-center align-items-center flex-column text-center">
                 Hola! <br> Mi nombre es Dolores Coelho, <br> y esta es mi historia.
@@ -44,37 +46,37 @@
     </section>
     <section class="container">
         <div class="row d-flex">
-            <div class="m-0"> 
+            <div class="m-0" data-aos="fade-up"> 
                 <p class="sobre__texto p-3">
                     Durante años me dediqué a la pastelería con el objetivo de crear sabores únicos. 
                 </p>
             </div>
 
-            <div class=" d-flex justify-content-center">
+            <div class=" d-flex justify-content-center" data-aos="fade-up">
                 <img src="../img/manoMousse.jpg" alt="" class="sobre__bubbles">
             </div>
 
-            <div class="m-0">
+            <div class="m-0" data-aos="fade-up">
                 <p class="sobre__texto p-3">
                     Me formé por mi cuenta, con recetas prestadas e inventadas, creciendo lentamente...
                 </p class="sobre__texto">
             </div>
 
-            <div class=" d-flex justify-content-center">
+            <div class=" d-flex justify-content-center" data-aos="fade-up">
                 <img src="../img/bocaditosSalados.jpg" alt="" class="sobre__bubbles">
             </div>
 
-            <div class="m-0" >
+            <div class="m-0" data-aos="fade-up">
                 <p class="sobre__texto p-3">
                     Creciendo de la mano de ustedes, quienes acompañaron cada paso...
                 </p>
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center" data-aos="fade-up">
                 <img src="../img/bodas.jpg" alt="" class="sobre__bubbles">
             </div>
            
-            <div class="m-0 p-0">
+            <div class="m-0 p-0" data-aos="fade-up">
                  <p class="sobre__texto p-3">
                     Dejándome a mí estar para ustedes en sus momentos más especiales
                  </p>
@@ -106,6 +108,10 @@
         </div>
     </footer>
     <!-- script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
