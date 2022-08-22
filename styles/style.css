@@ -1,2 +1,314 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Parisienne&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Parisienne', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeae6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+button, p, ul li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-index{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.banner__title{
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+}
+
+.banner__subtitle{
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+}
+
+.subtitlesI{
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+}
+
+.subtitlesN{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.subtitlesB{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 2;
+}
+
+.btn{
+    background-color: #3E6163;
+    color: #EEEAE6;
+    width: 45%;
+    font-size: 12px;
+}
+
+ul li {
+    list-style: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+.index-servicios__columna1{
+    background-color: #8a7049;
+}
+
+.index-servicios__columna2{
+    background-color: #d9d9d9;
+}
+
+.index-servicios__pic{
+    width: 100px;
+    padding: 2px;
+}
+
+.bubbles{
+    background-image: url(../img/Bubbles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    overflow: hidden;
+}
+
+.subtitlesBubble{
+    font-family: 'Parisienne', cursive;
+    border-radius: 100%;
+    background-color: #3E6163;
+    width: 180px;
+    height: 180px;
+    color: #EEEAE6;
+}
+
+.index-catalogo{
+    background-color: #d9d9d9;
+}
+
+.feet{
+    background-color: #3E6163;
+    color: #EEEAE6;
+}
+.feet__subtitles{
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+}
+
+
+.feet ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+
+.bienvenido{
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        width: 1000px; 
+        margin: auto;
+    }
+    .bienvenido{
+        padding: 100px;
+        height: 70vh;
+    }
+    .banner__title{
+        font-size: 60px;
+    }
+    .subtitlesI{
+        font-size: 50px;
+    }
+    .btn{
+        background-color: #3E6163;
+        color: #EEEAE6;
+        width: 20%;
+        font-size: 12px;
+    }
+
+    .index-servicios__columna1{
+        height: 90vh;
+    }
+    .index-servicios__pic{
+        width: 180px;
+    }
+    .bubbles{
+        height: 100vh;
+    }
+    .subtitlesBubble{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+.banner-servicios{
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.nav__link{
+    color: #EEEAE6;
+    font-size: 12px;
+    padding: 0;
+}
+.nav-tabs{
+    background-color: #3E6163;
+    padding: 0;
+}
+
+.servicio__texto{
+    background-color: #d9d9d9;
+}
+
+.servicio__MD{
+    background-color: #8a7049;
+    color: #EEEAE6;
+}
+
+.servicio__E{
+    background-color: #d9d9d9;
+}
+
+.servicio__S{
+    background-color: #8a7049;
+    color: #EEEAE6;
+}
+
+.servicios__pic{
+    width: 180px;
+}
+
+@media only screen and (min-width: 1200px){
+    .servicio__MD{
+        height: 100vh;
+        font-size: 20px;
+        padding: 100px;
+    }
+    .servicio__E{
+        height: 100vh;
+        font-size: 20px;
+        padding: 100px;
+    }
+    .servicio__S{
+        height: 100vh;
+        font-size: 20px;
+        padding: 100px;
+    }
+    .servicios__pic{
+        width: 350px;
+    }
+    .servicio__texto{
+        height: 50vh;
+        font-size: 30px;
+    }
+    .nav-tabs{
+        padding: 15px;
+    }
+    .nav__link{
+        font-size: 15px;
+    }
+    .nav__link:hover{
+        color: #8a7049;
+        border: 0px;
+    }
+}
+
+.contacto__form{
+    background-color: #d9d9d9;
+}
+
+@media only screen and (min-width: 1200px){
+    .contacto__form{
+        height: 80vh;
+    }
+}
+
+.banner-catalogo{
+    background-image: url(../img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+.catalogo__texto{
+    background-color: #d9d9d9;
+}
+
+@media only screen and (min-width: 1200px){
+    .catalogo__texto{
+        height: 50vh;
+        font-size: 20px;
+    }
+}
+
+.banner-sobre{
+    background-image: url(../img/señoraVerde.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sobre__bubbles{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.sobre__texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a7049;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    color: #EEEAE6;
+}
+
+
+@media only screen and (min-width: 1200px){
+    
+    .sobre__bubbles{
+        width: 400px;
+        height: 400px;
+        border-radius: 0%;
+    }
+    .sobre__texto{
+        width: 100%;
+        height: 400px;
+        border-radius: 0%;
+        font-size: 20px;
+    }
+}
