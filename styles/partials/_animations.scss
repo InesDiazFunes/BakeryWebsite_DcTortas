@@ -37,3 +37,7 @@
  .servicios__animations:hover{
     width: 43%;
  }
+
+h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::selection, img::selection, li::selection, label::selection, button::selection, input::selection, textarea::selection{
+    background-color: $selectionColor;
+}

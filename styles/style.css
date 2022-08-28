@@ -167,7 +167,8 @@ ul li {
   width: 180px;
 }
 
-/**/
+/*-------SOBRE MI---------*/
+
 .sobre__bubbles {
   border-radius: 100%;
   width: 300px;
@@ -293,6 +294,9 @@ ul li {
     height: 87vh;
   }
 }
+
+/*-------ANIMATIONS---------*/
+
 .index-servicios__pic {
   transition: all 0.3s 0.3s;
   transition-property: all;
@@ -401,4 +405,15 @@ ul li {
 
 .servicios__animations:hover {
   width: 43%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+h2::-moz-selection, p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, a::-moz-selection, img::-moz-selection, li::-moz-selection, label::-moz-selection, button::-moz-selection, input::-moz-selection, textarea::-moz-selection {
+  background-color: #bbb7b7;
+}
+
+h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::selection, img::selection, li::selection, label::selection, button::selection, input::selection, textarea::selection {
+  background-color: #bbb7b7;
+}
+
+
+/*# sourceMappingURL=style.css.map */
