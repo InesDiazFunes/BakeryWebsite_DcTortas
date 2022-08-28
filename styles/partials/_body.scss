@@ -3,15 +3,99 @@ ul li {
     padding: 8px;
 }
 
+
+/*       INDEX         */
+
+.bienvenido{
+    background-color: #fff;
+}
+
 .index-servicios__columna1{
-    background-color: #8a7049;
+    background-color: $colorTwo;
 }
 
 .index-servicios__columna2{
-    background-color: #d9d9d9;
+    background-color: $darkWhite;
 }
 
 .index-servicios__pic{
     width: 100px;
     padding: 2px;
+}
+
+.bubbles{
+    background-image: url(../img/Bubbles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    overflow: hidden;
+}
+
+.subtitlesBubble{
+    font-family: $fontParis;
+    border-radius: 100%;
+    background-color: $colorOne;
+    width: 180px;
+    height: 180px;
+    color: $lightWhite;
+}
+
+.index-catalogo{
+    background-color: $darkWhite;
+}
+
+/*-------SERVICIOS---------*/
+
+
+.servicio__texto{
+    background-color: $darkWhite;
+}
+
+.servicio__MD{
+    background-color: $colorTwo;
+    color: $lightWhite;
+}
+
+.servicio__E{
+    background-color: $darkWhite;
+}
+
+.servicio__S{
+    background-color: $colorTwo;
+    color: $lightWhite;
+}
+
+.servicios__pic{
+    width: 180px;
+}
+
+/**/
+
+.sobre__bubbles{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.sobre__texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorTwo;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    color: $lightWhite;
+}
+
+/*-------CATALOGO---------*/
+
+.catalogo__texto{
+    background-color: $darkWhite;
+}
+
+/*------CONTACTO----------*/ 
+
+.contacto__form{
+    background-color: $darkWhite;
 }
