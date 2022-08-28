@@ -1,0 +1,31 @@
+.banner__title{
+    font-family: $fontParis;
+    font-size: 50px;
+}
+.banner__subtitle{
+    font-family: $fontParis;
+    font-size: 25px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.banner-index{
+    background-image: url(../img/banner.jpg);
+}
+
+.banner-servicios{
+    background-image: url(../img/banner2.jpg);
+}
+
+.banner-catalogo{
+    background-image: url(../img/banner3.jpg);
+}
+
+.banner-sobre{
+    background-image: url(../img/señoraVerde.jpg);
+}

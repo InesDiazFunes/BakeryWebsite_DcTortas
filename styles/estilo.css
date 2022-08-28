@@ -1,1 +1,167 @@
-/*# sourceMappingURL=estilo.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Parisienne&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeae6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+button, p, ul li {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner__title {
+  font-family: "Parisienne", cursive;
+  font-size: 50px;
+}
+
+.banner__subtitle {
+  font-family: "Parisienne", cursive;
+  font-size: 25px;
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.banner-index {
+  background-image: url(../img/banner.jpg);
+}
+
+.banner-servicios {
+  background-image: url(../img/banner2.jpg);
+}
+
+.banner-catalogo {
+  background-image: url(../img/banner3.jpg);
+}
+
+.banner-sobre {
+  background-image: url(../img/señoraVerde.jpg);
+}
+
+.index-servicios__pic {
+  transition: all 0.3s 0.3s;
+  transition-property: all;
+  transition-duration: 1;
+  transition-timing-function: ease;
+}
+
+.index-servicios__pic:hover {
+  width: 50%;
+}
+
+.producto {
+  transition: all 0.3s;
+}
+
+.producto:hover {
+  transform: scale(1.1);
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.jello-horizontal {
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.servicios__animations {
+  transition: all 0.3s 0.3s;
+  transition-property: all;
+  transition-duration: 1;
+  transition-timing-function: ease;
+}
+
+.servicios__animations:hover {
+  width: 43%;
+}/*# sourceMappingURL=estilo.css.map */
