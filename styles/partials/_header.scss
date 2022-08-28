@@ -12,20 +12,21 @@
     background-size: cover;
     background-position: center;
     height: 50vh;
+
+        &.banner-index{
+            background-image: url(../img/banner.jpg);
+        }
+
+        &.banner-servicios{
+            background-image: url(../img/banner2.jpg);
+        }
+
+        &.banner-catalogo{
+            background-image: url(../img/banner3.jpg);
+        }
+
+        &.banner-sobre{
+            background-image: url(../img/señoraVerde.jpg);
+        }
 }
 
-.banner-index{
-    background-image: url(../img/banner.jpg);
-}
-
-.banner-servicios{
-    background-image: url(../img/banner2.jpg);
-}
-
-.banner-catalogo{
-    background-image: url(../img/banner3.jpg);
-}
-
-.banner-sobre{
-    background-image: url(../img/señoraVerde.jpg);
-}

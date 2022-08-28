@@ -2,4 +2,55 @@
 @import "./partials/reset";
 
 @import "./partials/header";
+@import "./partials/footer";
+
+@import "./partials/body";
+
+@import "./partials/subtitles";
+@import "./partials/buttons";
 @import "./partials/animations";
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+    .container{
+        width: 1000px; 
+        margin: auto;
+    }
+    .bienvenido{
+        padding: 100px;
+        height: 70vh;
+    }
+    .banner__title{
+        font-size: 60px;
+    }
+    .subtitlesI{
+        font-size: 50px;
+    }
+    
+    .btn{
+        background-color: #3E6163;
+        color: #EEEAE6;
+        width: 20%;
+        font-size: 12px;
+    }
+
+    .index-servicios__columna1{
+        height: 90vh;
+    }
+    .index-servicios__pic{
+        width: 180px;
+    }
+    .bubbles{
+        height: 100vh;
+    }
+    .subtitlesBubble{
+        width: 350px;
+        height: 350px;
+    }
+}

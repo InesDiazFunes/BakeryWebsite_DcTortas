@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #eeeae6;
+  background-color: #EEEAE6;
 }
 
 a {
@@ -39,21 +39,73 @@ button, p, ul li {
   background-position: center;
   height: 50vh;
 }
-
-.banner-index {
+.banner.banner-index {
   background-image: url(../img/banner.jpg);
 }
-
-.banner-servicios {
+.banner.banner-servicios {
   background-image: url(../img/banner2.jpg);
 }
-
-.banner-catalogo {
+.banner.banner-catalogo {
   background-image: url(../img/banner3.jpg);
 }
-
-.banner-sobre {
+.banner.banner-sobre {
   background-image: url(../img/señoraVerde.jpg);
+}
+
+.feet {
+  background-color: #3E6163;
+  color: #EEEAE6;
+}
+.feet .feet__subtitles {
+  font-family: "Parisienne", cursive;
+  font-size: 20px;
+}
+.feet ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+  padding: 8px;
+}
+
+.index-servicios__columna1 {
+  background-color: #8a7049;
+}
+
+.index-servicios__columna2 {
+  background-color: #d9d9d9;
+}
+
+.index-servicios__pic {
+  width: 100px;
+  padding: 2px;
+}
+
+.subtitlesI {
+  font-family: "Parisienne", cursive;
+  font-size: 25px;
+}
+
+.subtitlesN {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+.subtitlesB {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 2;
+}
+
+.btn {
+  background-color: #3E6163;
+  color: #EEEAE6;
+  width: 45%;
+  font-size: 12px;
 }
 
 .index-servicios__pic {
@@ -64,7 +116,7 @@ button, p, ul li {
 }
 
 .index-servicios__pic:hover {
-  width: 50%;
+  width: 43%;
 }
 
 .producto {
@@ -164,4 +216,40 @@ button, p, ul li {
 
 .servicios__animations:hover {
   width: 43%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+    margin: auto;
+  }
+  .bienvenido {
+    padding: 100px;
+    height: 70vh;
+  }
+  .banner__title {
+    font-size: 60px;
+  }
+  .subtitlesI {
+    font-size: 50px;
+  }
+  .btn {
+    background-color: #3E6163;
+    color: #EEEAE6;
+    width: 20%;
+    font-size: 12px;
+  }
+  .index-servicios__columna1 {
+    height: 90vh;
+  }
+  .index-servicios__pic {
+    width: 180px;
+  }
+  .bubbles {
+    height: 100vh;
+  }
+  .subtitlesBubble {
+    width: 350px;
+    height: 350px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
