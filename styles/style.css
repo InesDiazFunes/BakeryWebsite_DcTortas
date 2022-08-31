@@ -46,6 +46,11 @@ button, p, ul li {
   font-size: 12px;
 }
 
+.btn:hover {
+  background-color: #2A2E3E;
+  color: #d9d9d9;
+}
+
 .nav-tabs {
   background-color: #3E6163;
   padding: 0;
@@ -167,8 +172,7 @@ ul li {
   width: 180px;
 }
 
-/*-------SOBRE MI---------*/
-
+/**/
 .sobre__bubbles {
   border-radius: 100%;
   width: 300px;
@@ -294,9 +298,6 @@ ul li {
     height: 87vh;
   }
 }
-
-/*-------ANIMATIONS---------*/
-
 .index-servicios__pic {
   transition: all 0.3s 0.3s;
   transition-property: all;
@@ -413,7 +414,4 @@ h2::-moz-selection, p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h
 
 h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::selection, img::selection, li::selection, label::selection, button::selection, input::selection, textarea::selection {
   background-color: #bbb7b7;
-}
-
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

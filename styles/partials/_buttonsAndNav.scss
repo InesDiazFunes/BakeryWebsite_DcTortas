@@ -5,6 +5,11 @@
     font-size: 12px;
 }
 
+.btn:hover{
+    background-color: $colorBtn;
+    color: $darkWhite;
+}
+
 .nav-tabs{
     background-color: $colorOne;
     padding: 0;
