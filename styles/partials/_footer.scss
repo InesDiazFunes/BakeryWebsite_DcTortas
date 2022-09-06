@@ -18,11 +18,10 @@
 .fa-brands{
    @extend %icons; 
 
-   &:hover{
-    background-color: $colorBtn;
-   }
+    &:hover{
+        background-color: $colorBtn;
+    }
 }
-
 
 $redes: (
     facebook: #1877f2,
