@@ -71,10 +71,14 @@ ul li {
 
 /**/
 
+@mixin tam($ancho, $alto, $forma) {
+    width: $ancho;
+    height: $alto;
+    border-radius: $forma;
+}
+
 .sobre__bubbles{
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
+    @include tam(300px, 300px, 100%)
 }
 
 .sobre__texto{
@@ -82,10 +86,8 @@ ul li {
     justify-content: center;
     align-items: center;
     background-color: $colorTwo;
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
     color: $lightWhite;
+    @include tam(300px, 300px, 100%)
 }
 
 /*-------CATALOGO---------*/

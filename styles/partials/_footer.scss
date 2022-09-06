@@ -15,5 +15,21 @@
     }
 }
 
+.fa-brands{
+   @extend %icons; 
+}
 
+
+$redes: (
+    facebook: #1877f2,
+    instagram: #5F4BC6,
+    whatsapp:rgb(18, 87, 18)
+);
+
+@each $redSocial, $colour in $redes{
+    
+    .fa-#{$redSocial} {
+        background-color: $colour;
+    }
+}
 
