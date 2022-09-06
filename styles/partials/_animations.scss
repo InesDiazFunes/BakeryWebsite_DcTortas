@@ -46,3 +46,20 @@ h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::sel
     background-color: $colorBtn;
     color: $darkWhite;
 }
+
+.menu_item{
+    animation:roll-in-blurred-left .65s cubic-bezier(.23,1.000,.32,1.000) both;
+}
+
+@for $item from 1 through 5 {
+    .menu_item:nth-child(#{$item}){
+        animation-delay: $item*0.1s;
+    }
+}
+
+@keyframes roll-in-blurred-left{0%{transform:translateX(-1000px) rotate(-720deg);filter:blur(50px);opacity:0}100%{transform:translateX(0) rotate(0deg);filter:blur(0);opacity:1}}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
