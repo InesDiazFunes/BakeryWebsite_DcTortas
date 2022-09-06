@@ -17,6 +17,10 @@
 
 .fa-brands{
    @extend %icons; 
+
+   &:hover{
+    background-color: $colorBtn;
+   }
 }
 
 

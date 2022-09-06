@@ -107,6 +107,10 @@ button, p, ul li {
   color: black;
 }
 
+.fa-brands:hover {
+  background-color: #2A2E3E;
+}
+
 .fa-facebook {
   background-color: #1877f2;
 }
@@ -207,6 +211,10 @@ ul li {
 /*-------CATALOGO---------*/
 .catalogo__texto {
   background-color: #d9d9d9;
+}
+
+.card-body {
+  background-color: #5F4BC6;
 }
 
 /*------CONTACTO----------*/
@@ -489,4 +497,7 @@ h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::sel
     filter: blur(0);
     opacity: 1;
   }
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }/*# sourceMappingURL=style.css.map */

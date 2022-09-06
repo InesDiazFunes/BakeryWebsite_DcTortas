@@ -96,6 +96,10 @@ ul li {
     background-color: $darkWhite;
 }
 
+.card-body{
+    background-color: map-get($redes, instagram);
+}
+
 /*------CONTACTO----------*/ 
 
 .contacto__form{
