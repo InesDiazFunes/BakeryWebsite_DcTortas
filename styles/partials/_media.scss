@@ -1,6 +1,6 @@
 /*INDEX*/
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1000px){
     .container{
         width: 1000px; 
         margin: auto;
@@ -17,8 +17,8 @@
     }
     
     .btn{
-        background-color: #3E6163;
-        color: #EEEAE6;
+        background-color: $colorOne;
+        color: $lightWhite;
         width: 20%;
         font-size: 12px;
     }
@@ -40,7 +40,7 @@
 
 /*SERVICIOS*/
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1000px){
     .servicio__MD{
         height: 100vh;
         font-size: 20px;
@@ -70,7 +70,7 @@
         font-size: 15px;
     }
     .nav__link:hover{
-        color: #8a7049;
+        color: $colorTwo;
         border: 0px;
     }
 }
@@ -97,7 +97,7 @@
 
 /*CATALOGO*/
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1000px){
     .catalogo__texto{
         height: 50vh;
         font-size: 30px;
@@ -106,7 +106,7 @@
 
 /*CONTACTO*/
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1000px){
     .contacto__form{
         height: 87vh;
     }

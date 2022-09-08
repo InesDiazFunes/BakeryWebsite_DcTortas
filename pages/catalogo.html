@@ -8,6 +8,7 @@
     <meta name="description" content="Para saciar tus anotjos">
     <meta name="keywords" content="Comida, Artesanal, Dulce, Salado, Postres, Tortas, Sandiwches, Tartas">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b45e53f464.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/style.css">
 
 </head>
@@ -15,24 +16,28 @@
     <header>
         <div class="banner banner-catalogo d-flex justify-content-center flex-column align-items-center">
             <h1 class="banner__title pt-5 tracking-in-expand"><a href="../index.html">DcTortas</a></h1>
+
+            <nav class="navbar navbar-expand-lg ">
+              <div class="container-fluid d-flex justify-content-center align-items-center">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <ul>
+                          <li class="d-inline-block menu_item" ><a class="nav-link" aria-current="page" href="../index.html">Inicio</a></li>
+                          <li class="d-inline-block menu_item">  <a class="nav-link" href="../pages/servicios.html">Servicios</a></li>
+                          <li class="d-inline-block menu_item" ><a class="nav-link" href="../pages/catalogo.html">Catálogo</a></li>
+                          <li class="d-inline-block menu_item" ><a class="nav-link" href="../pages/sobreMi.html">Sobre Mí</a></li>
+                          <li class="d-inline-block menu_item" ><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+          </nav>
         </div>
     </header>
-    <nav>
-        <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item">
-                <a class="nav__link" href="../index.html">Inicio</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav__link " aria-current="page" href="../pages/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav__link" href="../pages/sobreMi.html">Sobre Mi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav__link" href="../pages/contacto.html"> Contacto</a>
-              </li>
-          </ul>
-    </nav>
+    
     <section class="container">
         <div class="row">
             <p class="catalogo__texto d-flex text-center p-5 justify-content-center align-items-center flex-column">
@@ -43,7 +48,7 @@
 
     <section class="container">
         <div class="row my-3 ">
-            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100">
+            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100 cartita">
                 <img src="../img/frutossecos.jpg" class="card-img-top" alt="alfajores">
                 <div class="card-body">
                   <p class="card-text">
@@ -52,14 +57,14 @@
                   
                 </div>
               </div></div>
-            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100">
+            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100 cartita">
                 <img src="../img/sandwCrudo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Sandiwches de queso brie y jamón crudo, con pan casero.
                 </p>
                 </div>
               </div></div>
-            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100" >
+            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100 cartita" >
                 <img src="../img/alfajores.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Alfajores de dulce y chocolate, con masa hecha con nutella.
@@ -67,7 +72,7 @@
                 </p>
                 </div>
               </div></div>
-            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100" >
+            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100 cartita" >
                 <img src="../img/mouseFrutilla.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Mousse helada de frutillas frescas con base de galletas molidas.
@@ -75,7 +80,7 @@
                 </p>
                 </div>
               </div></div>
-              <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100">
+              <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100 cartita">
                 <img src="../img/moussePalta.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Mousse de palta con galleta de queso.
@@ -83,7 +88,7 @@
                 </p>
                 </div>
               </div></div>
-            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100" >
+            <div class="col-md-3 col-sm-6 my-3  producto"><div class="card h-100 cartita" >
                 <img src="../img/veganaChocolate.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">
@@ -91,14 +96,14 @@
                     </p>
                 </div>
               </div></div>
-            <div class="col-md-3 col-sm-6 my-3 producto"><div class="card h-100" >
+            <div class="col-md-3 col-sm-6 my-3 producto"><div class="card h-100 cartita" >
                 <img src="../img/merengon.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   
                   <p class="card-text">Merengón casero con crema batida y frutas.</p>
                 </div>
               </div></div>
-              <div class="col-md-3 col-sm-6 my-3 producto"><div class="card h-100" >
+              <div class="col-md-3 col-sm-6 my-3 producto"><div class="card h-100 cartita" >
                 <img src="../img/mousseOreos.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Mousse de chocolate blanco, con dulce de leche y base de oreo.</p>
@@ -125,10 +130,10 @@
             </ul>
         </div>
         <div class="d-flex justify-content-center align-items-center p-3">
-            <img src="../img/fb.png" alt="" width="50px">
-            <img src="../img/ig.png" alt="" width="50px">
-            <img src="../img/wpp.png" alt=""  width="40px">
-        </div>
+          <a href="https://www.facebook.com/DcTortas" target="_blank"><i class="fa-brands fa-facebook "></i></a>
+          <a href="https://www.instagram.com/dctortas_/" target="_blank"><i class="fa-brands fa-instagram "></i></a> 
+          <a href=""><i class="fa-brands fa-whatsapp " target="_blank"></i></a>
+      </div>
     </footer>
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

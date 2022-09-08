@@ -15,6 +15,7 @@
 
 body {
   background-color: #EEEAE6;
+  overflow-x: hidden;
 }
 
 a {
@@ -223,7 +224,7 @@ ul li {
 }
 
 /*INDEX*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .container {
     width: 1000px;
     margin: auto;
@@ -259,7 +260,7 @@ ul li {
   }
 }
 /*SERVICIOS*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .servicio__MD {
     height: 100vh;
     font-size: 20px;
@@ -308,14 +309,14 @@ ul li {
   }
 }
 /*CATALOGO*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .catalogo__texto {
     height: 50vh;
     font-size: 30px;
   }
 }
 /*CONTACTO*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .contacto__form {
     height: 87vh;
   }
@@ -498,6 +499,6 @@ h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::sel
     opacity: 1;
   }
 }
-.card:hover {
+.cartita:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }/*# sourceMappingURL=style.css.map */
