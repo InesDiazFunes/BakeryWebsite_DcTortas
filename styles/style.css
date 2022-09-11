@@ -81,7 +81,8 @@ button, p, ul li {
   height: 50vh;
 }
 .banner.banner-index {
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner2-removebg.png);
+  background-color: #c0cbcd;
 }
 .banner.banner-servicios {
   background-image: url(../img/banner2.jpg);
