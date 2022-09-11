@@ -14,7 +14,7 @@ ul li {
     background-color: $colorTwo;
 }
 
-.index-servicios__columna2{
+.index-servicios__columna2, .index-catalogo{
     background-color: $darkWhite;
 }
 
@@ -40,27 +40,16 @@ ul li {
     color: $lightWhite;
 }
 
-.index-catalogo{
-    background-color: $darkWhite;
-}
+
 
 /*-------SERVICIOS---------*/
 
 
-.servicio__texto{
+.servicio__texto , .servicio__E{
     background-color: $darkWhite;
 }
 
-.servicio__MD{
-    background-color: $colorTwo;
-    color: $lightWhite;
-}
-
-.servicio__E{
-    background-color: $darkWhite;
-}
-
-.servicio__S{
+.servicio__MD, .servicio__S{
     background-color: $colorTwo;
     color: $lightWhite;
 }
@@ -69,26 +58,37 @@ ul li {
     width: 180px;
 }
 
-/**/
+/*-------SOBRE MI---------*/
 
-@mixin tam($ancho, $alto, $forma) {
-    width: $ancho;
-    height: $alto;
-    border-radius: $forma;
+.sobreMi{
+    padding-block: 30px;
 }
 
-.sobre__bubbles{
-    @include tam(300px, 300px, 100%)
-}
-
-.sobre__texto{
+.inner{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $colorTwo;
-    color: $lightWhite;
-    @include tam(300px, 300px, 100%)
+    box-shadow: 13px 13px 50px #cccccc;
+
+        &.inner>div{
+            flex: 1;
+        }
+
+        .inner__pic img{
+            max-width: 100%;
+            padding: 1.5rem;
+        }
+
+        .inner__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            padding: 3rem;
+            &.inner__text p{
+                font-size: 20px;
+            }
+        }
 }
+
 
 /*-------CATALOGO---------*/
 
