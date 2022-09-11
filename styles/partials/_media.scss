@@ -63,6 +63,9 @@
             .inner{
                 flex-direction: column;
                 font-size: 15px;
+                .inner__text{
+                    padding-bottom: 0.5rem;
+                }
             }
     }
 }

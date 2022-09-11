@@ -268,6 +268,9 @@ ul li {
     flex-direction: column;
     font-size: 15px;
   }
+  .sobreMi .inner .inner__text {
+    padding-bottom: 0.5rem;
+  }
 }
 /*CATALOGO*/
 @media only screen and (min-width: 1000px) {
