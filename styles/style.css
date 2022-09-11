@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Parisienne&display=swap");
 .fa-brands {
   padding: 15px;
-  color: black;
+  color: #EEEAE6;
   border-radius: 100%;
   margin: 15px;
 }
@@ -110,18 +110,7 @@ button, p, ul li {
 
 .fa-brands:hover {
   background-color: #2A2E3E;
-}
-
-.fa-facebook {
-  background-color: #1877f2;
-}
-
-.fa-instagram {
-  background-color: #5F4BC6;
-}
-
-.fa-whatsapp {
-  background-color: rgb(18, 87, 18);
+  color: #3E6163;
 }
 
 ul li {
@@ -212,10 +201,6 @@ ul li {
 /*-------CATALOGO---------*/
 .catalogo__texto {
   background-color: #d9d9d9;
-}
-
-.card-body {
-  background-color: #5F4BC6;
 }
 
 /*------CONTACTO----------*/
