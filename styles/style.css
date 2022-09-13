@@ -226,7 +226,7 @@ ul li {
     height: 350px;
   }
   /*SERVICIO*/
-  .servicio__MD, .servicio__E, .servicio__S {
+  .servicio__M, .servicio__G {
     height: 100vh;
     font-size: 20px;
     padding: 100px;
