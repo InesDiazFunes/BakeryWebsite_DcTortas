@@ -149,8 +149,7 @@ ul li {
   height: 330px;
   overflow: hidden;
 }
-
-.subtitlesBubble {
+.bubbles .subtitlesBubble {
   font-family: "Parisienne", cursive;
   border-radius: 100%;
   background-color: #3E6163;
@@ -159,12 +158,12 @@ ul li {
   color: #EEEAE6;
 }
 
-/*-------SERVICIOS---------*/
-.servicio__texto, .servicio__E {
+/*-------SERVICIOS Y CATALOGO Y CONTACT---------*/
+.servicio__G, .catalogo__texto, .contacto__form {
   background-color: #d9d9d9;
 }
 
-.servicio__MD, .servicio__S {
+.servicio__M {
   background-color: #8a7049;
   color: #EEEAE6;
 }
@@ -177,37 +176,26 @@ ul li {
 .sobreMi {
   padding-block: 30px;
 }
-
-.inner {
+.sobreMi .inner {
   display: flex;
-  box-shadow: 13px 13px 50px #cccccc;
+  box-shadow: 13px 13px 30px #cccccc;
 }
-.inner.inner > div {
+.sobreMi .inner.inner > div {
   flex: 1;
 }
-.inner .inner__pic img {
+.sobreMi .inner .inner__pic img {
   max-width: 100%;
   padding: 1.5rem;
 }
-.inner .inner__text {
+.sobreMi .inner .inner__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
   padding: 3rem;
 }
-.inner .inner__text.inner__text p {
+.sobreMi .inner .inner__text.inner__text p {
   font-size: 20px;
-}
-
-/*-------CATALOGO---------*/
-.catalogo__texto {
-  background-color: #d9d9d9;
-}
-
-/*------CONTACTO----------*/
-.contacto__form {
-  background-color: #d9d9d9;
 }
 
 /*INDEX*/
@@ -216,38 +204,34 @@ ul li {
     width: 1000px;
     margin: auto;
   }
-  .bienvenido {
+  .container.bienvenido {
     padding: 100px;
     height: 70vh;
   }
-  .banner__title {
+  .container .banner__title {
     font-size: 60px;
   }
-  .subtitlesI {
+  .container .subtitlesI {
     font-size: 50px;
   }
-  .btn {
-    background-color: #3E6163;
-    color: #EEEAE6;
+  .container .btn {
     width: 20%;
     font-size: 12px;
   }
   .index-servicios__columna1 {
     height: 90vh;
   }
-  .index-servicios__pic {
+  .index-servicios__columna1 .index-servicios__pic {
     width: 180px;
   }
   .bubbles {
-    height: 100vh;
+    height: 90vh;
   }
-  .subtitlesBubble {
+  .bubbles .subtitlesBubble {
     width: 350px;
     height: 350px;
   }
-}
-/*SERVICIOS*/
-@media only screen and (min-width: 1000px) {
+  /*SERVICIO*/
   .servicio__MD, .servicio__E, .servicio__S {
     height: 100vh;
     font-size: 20px;
@@ -256,11 +240,16 @@ ul li {
   .servicios__pic {
     width: 350px;
   }
-  .servicio__texto {
+  .servicio__texto, .catalogo__texto {
     height: 50vh;
     font-size: 30px;
   }
+  /*CONTACTO*/
+  .contacto__form {
+    height: 87vh;
+  }
 }
+/*SOBRE MI*/
 @media only screen and (max-width: 480px) {
   .sobreMi {
     padding: 1.5rem;
@@ -273,26 +262,12 @@ ul li {
     padding-bottom: 0.5rem;
   }
 }
-/*CATALOGO*/
-@media only screen and (min-width: 1000px) {
-  .catalogo__texto {
-    height: 50vh;
-    font-size: 30px;
-  }
-}
-/*CONTACTO*/
-@media only screen and (min-width: 1000px) {
-  .contacto__form {
-    height: 87vh;
-  }
-}
 .index-servicios__pic {
   transition: all 0.3s 0.3s;
   transition-property: all;
   transition-duration: 1;
   transition-timing-function: ease;
 }
-
 .index-servicios__pic:hover {
   width: 43%;
 }
@@ -300,7 +275,6 @@ ul li {
 .producto {
   transition: all 0.3s;
 }
-
 .producto:hover {
   transform: scale(1.1);
 }
@@ -385,22 +359,10 @@ ul li {
     transform: scale3d(1, 1, 1);
   }
 }
-.servicios__animations {
-  transition: all 0.3s 0.3s;
-  transition-property: all;
-  transition-duration: 1;
-  transition-timing-function: ease;
-}
-
-.servicios__animations:hover {
-  width: 43%;
-}
-
-h2::-moz-selection, p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, a::-moz-selection, img::-moz-selection, li::-moz-selection, label::-moz-selection, button::-moz-selection, input::-moz-selection, textarea::-moz-selection {
+h2::-moz-selection, p::-moz-selection, h1::-moz-selection, h3::-moz-selection, a::-moz-selection, img::-moz-selection, li::-moz-selection, ul::-moz-selection, label::-moz-selection, button::-moz-selection, input::-moz-selection, textarea::-moz-selection {
   background-color: #bbb7b7;
 }
-
-h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::selection, img::selection, li::selection, label::selection, button::selection, input::selection, textarea::selection {
+h2::selection, p::selection, h1::selection, h3::selection, a::selection, img::selection, li::selection, ul::selection, label::selection, button::selection, input::selection, textarea::selection {
   background-color: #bbb7b7;
 }
 
@@ -412,31 +374,6 @@ h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::sel
 .menu_item {
   -webkit-animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
           animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
-}
-
-.menu_item:nth-child(1) {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
-}
-
-.menu_item:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
-}
-
-.menu_item:nth-child(3) {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
-
-.menu_item:nth-child(4) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
-
-.menu_item:nth-child(5) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
 }
 
 @-webkit-keyframes roll-in-blurred-left {
@@ -466,4 +403,29 @@ h2::selection, p::selection, h1::selection, h2::selection, h3::selection, a::sel
 }
 .cartita:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.menu_item:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.menu_item:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.menu_item:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.menu_item:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.menu_item:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }/*# sourceMappingURL=style.css.map */

@@ -29,27 +29,25 @@ ul li {
     background-size: cover;
     height: 330px;
     overflow: hidden;
+
+    .subtitlesBubble{
+        font-family: $fontParis;
+        border-radius: 100%;
+        background-color: $colorOne;
+        width: 180px;
+        height: 180px;
+        color: $lightWhite;
+    }
 }
 
-.subtitlesBubble{
-    font-family: $fontParis;
-    border-radius: 100%;
-    background-color: $colorOne;
-    width: 180px;
-    height: 180px;
-    color: $lightWhite;
-}
+/*-------SERVICIOS Y CATALOGO Y CONTACT---------*/
 
 
-
-/*-------SERVICIOS---------*/
-
-
-.servicio__texto , .servicio__E{
+.servicio__G, .catalogo__texto, .contacto__form{
     background-color: $darkWhite;
 }
 
-.servicio__MD, .servicio__S{
+.servicio__M{
     background-color: $colorTwo;
     color: $lightWhite;
 }
@@ -62,44 +60,32 @@ ul li {
 
 .sobreMi{
     padding-block: 30px;
-}
 
-.inner{
-    display: flex;
-    box-shadow: 13px 13px 50px #cccccc;
-
-        &.inner>div{
-            flex: 1;
-        }
-
-        .inner__pic img{
-            max-width: 100%;
-            padding: 1.5rem;
-        }
-
-        .inner__text{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: left;
-            padding: 3rem;
-            &.inner__text p{
-                font-size: 20px;
+    .inner{
+        display: flex;
+        box-shadow: 13px 13px 30px #cccccc;
+    
+            &.inner>div{
+                flex: 1;
             }
-        }
+    
+            .inner__pic img{
+                max-width: 100%;
+                padding: 1.5rem;
+            }
+    
+            .inner__text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: left;
+                padding: 3rem;
+                &.inner__text p{
+                    font-size: 20px;
+                }
+            }
+    }
 }
 
-
-/*-------CATALOGO---------*/
-
-.catalogo__texto{
-    background-color: $darkWhite;
-}
-
-/*------CONTACTO----------*/ 
-
-.contacto__form{
-    background-color: $darkWhite;
-}
 
 
