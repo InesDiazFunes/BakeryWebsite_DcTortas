@@ -84,12 +84,6 @@ button, p, ul li {
   background-image: url(../img/banner2-removebg.png);
   background-color: #c0cbcd;
 }
-.banner.banner-servicios {
-  background-image: url(../img/banner2.jpg);
-}
-.banner.banner-catalogo {
-  background-image: url(../img/banner3.jpg);
-}
 .banner.banner-sobre {
   background-image: url(../img/señoraVerde.jpg);
 }
