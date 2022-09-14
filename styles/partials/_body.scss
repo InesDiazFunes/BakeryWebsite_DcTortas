@@ -43,7 +43,7 @@ ul li {
 /*-------SERVICIOS Y CATALOGO Y CONTACT---------*/
 
 
-.servicio__G, .catalogo__texto, .contacto__form{
+.servicio__G, .catalogo__texto, .servicio__texto, .contacto__form{
     background-color: $darkWhite;
 }
 
@@ -54,6 +54,11 @@ ul li {
 
 .servicios__pic{
     width: 180px;
+}
+
+.servicio__texto , .catalogo__texto{
+    height: 50vh;
+    font-size: 20px;
 }
 
 /*-------SOBRE MI---------*/
